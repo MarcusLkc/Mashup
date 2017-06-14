@@ -89,7 +89,7 @@ function addMarker(place)
             for (var i = 0; i < articles.length; i++)
             {
 				//Each list item is stored into articlesString
-            	articlesContent += "<li><a target='_NEW' href='" + articles[i].link
+            	articlesContent += "<li><a target='_blank' href='" + articles[i].link
             	+ "'>" + articles[i].title + "</a></li>";
             }
         }
